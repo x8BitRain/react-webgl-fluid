@@ -1,6 +1,7 @@
+
 # react-webgl-fluid
 
-A React implementation of Pavel Dobryakov's WebGL Fluid Simulation as a component, not only is it a fun simulation to play with but when tweaked the settings to be less resource intensive and lower resolution, the simulation can be a cool UI element you could add to something like a navbar or page background like this: https://btr.pm/projects/
+A React implementation of [Pavel Dobryakov's WebGL Fluid Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) as a component, not only is it a fun simulation to play with but when tweaked the settings to be less resource intensive and lower resolution, the simulation can be a cool UI element you could add to something like a navbar or page background like this: https://btr.pm/projects/
 
 # How it works
 
@@ -46,5 +47,5 @@ yarn lint
 To build static HTML and JS files for production or whatever rly)))
 
 ```bash
-yarn -p
+webpack -p
 ```
